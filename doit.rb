@@ -2,29 +2,29 @@ class Doit < Formula
   desc "A CLI progress monitor for time-based visualization"
   homepage "https://github.com/matsuokashuhei/doit"
   license "MIT"
-  version "0.6.0"
+  version "0.6.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.0/doit-macos-x86_64"
-      sha256 "4f75460fc1f269bad6157c4a3e1d4bcba1400cb1676579a142b63c84e2a5a4b1"
+      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.1/doit-macos-x86_64"
+      sha256 "709de0c005e0aef347bf3def5dff053a65532b19fb12f6a25bbfdb409fa479cb"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.0/doit-macos-aarch64"
-      sha256 "98e668251877f5e4a7422807eb26bd4577b672e0b2bab4eb94239ae693c13130"
+      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.1/doit-macos-aarch64"
+      sha256 "d218cd0eaf50b2914cf1075bf5d1003d6642d8be3bf997a9211833d4e4bdb325"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.0/doit-linux-x86_64"
-      sha256 "53351ef78e1d39784dc69ac09e1c3e935db6e8af3695b9eff9b30bf515279964"
+      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.1/doit-linux-x86_64"
+      sha256 "ce837cd08e68e60f0bfb3aa3e16db4461cd68e2f58a394b92fdf32f1ee7dd93a"
     end
 
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.0/doit-linux-aarch64"
-      sha256 "81d35d17d2a9bd239ab2dcd48207190e59d04664f262ef2af60c3d4cb5476092"
+      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.1/doit-linux-aarch64"
+      sha256 "913e60c8156cb85f6f9c936665e1e1cc81f70539437cbd7c51bce62da894f18b"
     end
   end
 
