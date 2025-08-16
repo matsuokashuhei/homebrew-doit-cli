@@ -6,19 +6,19 @@ class Doit < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.1/doit-macos-x86_64"
+      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.2/doit-macos-x86_64"
       sha256 "7a606190969a73a107a996a6bea08c4dfb7f428a4d8856b5d0887abc8c39e828"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.1/doit-macos-aarch64"
+      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.2/doit-macos-aarch64"
       sha256 "3db26be427229ec54825b1ba73e5fc217698ecea66545872b32e8156106ec54d"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.1/doit-linux-x86_64"
+      url "https://github.com/matsuokashuhei/doit/releases/download/v0.6.2/doit-linux-x86_64"
       sha256 "707bce3605d58385df828e2e74b3cd27dbb893a1f5c47bd4bd2d36ee189769d4"
     end
 
